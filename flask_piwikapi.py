@@ -20,7 +20,6 @@ class FlaskRequest(object):
         """
         return self.request.headers
 
-    @property
     def is_secure(self):
         """
         Returns a boolean, if the connection is secured.
